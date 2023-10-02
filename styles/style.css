@@ -6,13 +6,9 @@ img {
   width: 100%;
 }
 
-.boton {
-  width: 150px;
-  background: #cddc39;
-  border: 6px green solid;
-  border-radius: 12px;
-  padding: 6px;
-  margin: 0 auto;
+section {
+  display: flex;
+  align-items: flex-end;
 }
 
 .descripcion {
@@ -20,15 +16,45 @@ img {
 }
 
 .precio {
-  font-family: "Glegoo", serif;
+  font-family: "Glegoo";
   font-size: 1.8em;
   flex: 1;
-}
-
-section {
-  display: flex;
+  align-self: flex-start;
+  margin-right: 15px;
 }
 
 .imagen {
   width: 50%;
+}
+
+.imagen2 {
+  width: 30%;
+}
+
+.boton_inicial {
+  width: 150px;
+  background-color: #cddc39;
+  border: 6px green solid;
+  border-radius: 12px;
+  padding: 2px 15px 8px;
+  margin: 0 auto;
+}
+
+.boton_primerClic {
+  width: 150px;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  color: white;
+}
+
+.boton_segundoClic {
+  width: 200px;
+  background-color: #9c27b0;
+  font-size: 1em;
+  border: none;
+  border-radius: 0;
+  padding: 6px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
